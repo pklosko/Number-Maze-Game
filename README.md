@@ -13,5 +13,22 @@ For the updated version, with additional harder mazes, see: http://www.technoblo
  * DxCore 1.5.11
  * AVR DA Series (no bootloader)
  * AVR128DA32
+ * millis() TCB2
  * Clock 4MHz
  * printf() minimal
+
+# ⚠️ AVR32DA32 WARNING
+## There is an issue in TCB0_INT_vect (DxCore)[https://github.com/SpenceKonde/DxCore]
+## Use AVR32_NumberMageGame sketch
+ *      - Port David's sketch to AVR32DA32 w ###DxCore 1.5.3
+ *      - Translate intro & game No. to CZECH
+ *      - no millis, no TCB used = Its some issue w/ iterrupts or something around TCB, I thing
+ *      - modify sleep routine
+ *      
+ *  Adrino IDE settings:    
+ *      - DxCore 1.5.3
+ *      - AVR DA Series (no bootloader)
+ *      - AVR32DA32
+ *      - millis() disabled
+ *      - Clock 4MHz
+ *      - printf() minimal

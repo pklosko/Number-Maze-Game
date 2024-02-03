@@ -1,5 +1,5 @@
 # Number-Maze-Game
-Fork of @technoblogy handheld game that displays logic mazes you have to solve by pressing the buttons.
+Fork of @technoblogy [https://github.com/technoblogy/number-maze-game] handheld game that displays logic mazes you have to solve by pressing the buttons.
 
 For the original version see: http://www.technoblogy.com/show?45JT.
 
